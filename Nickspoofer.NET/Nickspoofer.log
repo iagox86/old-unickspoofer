@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Nickspoofer.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Nickspoofer"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "Nickspoofer.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "R:\My Projects\Visual Basic\UNickspoofer\Nickspoofer.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "R:\My Projects\Visual Basic\UNickspoofer\Nickspoofer.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "R:\My Projects\Visual Basic\UNickspoofer\frmMain.frm"
+        NewPath = "R:\My Projects\Visual Basic\UNickspoofer\Nickspoofer.NET\frmMain.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2056"
+                ObjectName = "scAlignment"
+                ObjectType = "ComboBox"
+                PME = "ItemData"
+            >ComboBox property scAlignment.ItemData was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2056"
+                ObjectName = "bwAlignment"
+                ObjectType = "ComboBox"
+                PME = "ItemData"
+            >ComboBox property bwAlignment.ItemData was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2069"
+                ObjectName = "wc3Preview"
+                ObjectType = "Shape"
+                PME = "Shape"
+            >Shape property wc3Preview.Shape was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "1041"
+                PME = "array"
+            >Array has a new behavior.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "wc3Name"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property wc3Name.MaxLength has a new behavior.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "txtGreen"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property txtGreen.MaxLength has a new behavior.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "txtBlue"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property txtBlue.MaxLength has a new behavior.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "txtRed"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property txtRed.MaxLength has a new behavior.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2069"
+                ObjectName = "wc3Preview"
+                ObjectType = "Shape"
+                PME = "BorderStyle"
+            >Shape property wc3Preview.BorderStyle was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2068"
+            >Shape object was not upgraded.</Issue>
+        </Section>
+        <Section Name = "chkUseColors_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "wc3Name"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property wc3Name.MaxLength has a new behavior.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event chkUseColors.CheckStateChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "txtBlue_Change" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event txtBlue.TextChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "txtGreen_Change" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event txtGreen.TextChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "txtRed_Change" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event txtRed.TextChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "GetGameHandle" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object GameCode.</Issue>
+        </Section>
+        <Section Name = "scAlignment_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event scAlignment.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "bwAlignment_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event bwAlignment.SelectedIndexChanged may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "Form_Resize" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "TaskVisible"
+            >App property App.TaskVisible was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+                ObjectType = "Form"
+                PME = "Resize"
+            >Event frmMain.Resize may fire when form is intialized.</Issue>
+        </Section>
+        <Section Name = "picSystemTray_MouseMove" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "frmMain"
+                ObjectType = "Form"
+                PME = "PopupMenu"
+            >Form method frmMain.PopupMenu was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "TaskVisible"
+            >App property App.TaskVisible was not upgraded.</Issue>
+        </Section>
+        <Section Name = "mnuSTRestore_Click" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "TaskVisible"
+            >App property App.TaskVisible was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "R:\My Projects\Visual Basic\UNickspoofer\modSpoofer.bas"
+        NewPath = "R:\My Projects\Visual Basic\UNickspoofer\Nickspoofer.NET\modSpoofer.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "WriteProcessMemory" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "ReadProcessMemory" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "GetVersionExA" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure OSVERSIONINFO may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "R:\My Projects\Visual Basic\UNickspoofer\modUsageReport.bas"
+        NewPath = "R:\My Projects\Visual Basic\UNickspoofer\Nickspoofer.NET\modUsageReport.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "R:\My Projects\Visual Basic\UNickspoofer\frmAbout.frm"
+        NewPath = "R:\My Projects\Visual Basic\UNickspoofer\Nickspoofer.NET\frmAbout.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "frmAbout"
+                ObjectType = "Form"
+                PME = "ClipControls"
+            >Form property frmAbout.ClipControls was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "frmAbout"
+                ObjectType = "Form"
+                PME = "ScaleHeight"
+            >Form property frmAbout.ScaleHeight was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2038"
+                ObjectName = "frmAbout"
+                ObjectType = "Form"
+                PME = "ScaleMode"
+            >Form property frmAbout.ScaleMode is not supported.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "frmAbout"
+                ObjectType = "Form"
+                PME = "ScaleWidth"
+            >Form property frmAbout.ScaleWidth was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "picIcon"
+                ObjectType = "PictureBox"
+                PME = "ClipControls"
+            >PictureBox property picIcon.ClipControls was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "picIcon"
+                ObjectType = "PictureBox"
+                PME = "ScaleHeight"
+            >PictureBox property picIcon.ScaleHeight was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "picIcon"
+                ObjectType = "PictureBox"
+                PME = "ScaleMode"
+            >PictureBox property picIcon.ScaleMode was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "picIcon"
+                ObjectType = "PictureBox"
+                PME = "ScaleWidth"
+            >PictureBox property picIcon.ScaleWidth was not upgraded.</Issue>
+        </Section>
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "Revision"
+            >App property App.Revision was not upgraded.</Issue>
+        </Section>
+        <Section Name = "StartSysInfo" >
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+                PME = "Dir"
+            >Dir has a new behavior.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "R:\My Projects\Visual Basic\UNickspoofer\modMinimize.bas"
+        NewPath = "R:\My Projects\Visual Basic\UNickspoofer\Nickspoofer.NET\modMinimize.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "Shell_NotifyIcon" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure NOTIFYICONDATA may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

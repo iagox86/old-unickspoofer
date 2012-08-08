@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Nickspoofer", "Nickspoofer.vbproj", "{488E53CB-82DD-4C65-8749-C9DAF0F0D4AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{488E53CB-82DD-4C65-8749-C9DAF0F0D4AF}.Debug.ActiveCfg = Debug|.NET
+		{488E53CB-82DD-4C65-8749-C9DAF0F0D4AF}.Debug.Build.0 = Debug|.NET
+		{488E53CB-82DD-4C65-8749-C9DAF0F0D4AF}.Release.ActiveCfg = Release|.NET
+		{488E53CB-82DD-4C65-8749-C9DAF0F0D4AF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
